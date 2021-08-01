@@ -1,0 +1,1020 @@
+{
+    "portals": {
+        "boardgamearena": {
+            "title": "Boardgame Arena",
+            "url": "https://www.boardgamearena.com",
+            "icons": {
+                "platform": "https://x.boardgamearena.net/data/themereleases/200316-1631/img/logo/logo.png",
+                "game": "https://x.boardgamearena.net/data/themereleases/210520-0804/games/{0}/current/img/game_icon.png"
+            },
+            "template": "https://boardgamearena.com/gamepanel?game={0}"
+        },
+        "boardgamearena-premium": {
+            "title": "Boardgame Arena (Premium)",
+            "url": "https://www.boardgamearena.com",
+            "icons": {
+                "platform": "https://x.boardgamearena.net/data/themereleases/200316-1631/img/mainsite/premium.png",
+                "game": "https://x.boardgamearena.net/data/themereleases/210520-0804/games/{0}/current/img/game_icon.png"
+            },
+            "template": "https://boardgamearena.com/gamepanel?game={0}"
+        },
+        "brettspielwelt": {
+            "title": "Brettspielwelt",
+            "url": "https://m.brettspielwelt.de",
+            "icons": {
+                "platform": "https://m.brettspielwelt.de/images/baselogo.png",
+                "game": "https://m.brettspielwelt.de/images/spiele/{0}.jpg"
+            },
+            "template": "https://m.brettspielwelt.de/#requestPage:list:HeadSpiel,game:{0}"
+        },
+        "yucata": {
+            "title": "Yucata",
+            "url": "https://www.yucata.de",
+            "icons": {
+                "platform": "https://www.yucata.de/netimages/c/yavatar.png",
+                "game": "https://www.yucata.de/Games/{0}/cover120.jpg"
+            },
+            "template": "https://www.yucata.de/de/GameInfo/{0}"
+        }
+    },
+    "games": [
+        {
+            "portal": "boardgamearena",
+            "id": "martiandice",
+            "name": "Mars Würfel",
+            "players": {
+                "min": 2,
+                "max": 10,
+                "best": 3
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/martian-dice-2011/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "escapefromthehiddencastle",
+            "name": "HUGO",
+            "players": {
+                "min": 2,
+                "max": 8,
+                "best": 5
+            },
+            "music": "https://melodice.org/playlist/hugo-1993/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "concept",
+            "name": "Concept",
+            "players": {
+                "min": 2,
+                "max": 12,
+                "best": 6
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/concept-2013/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "flamingpyramids",
+            "name": "Flaming Pyramids",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": 4
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/flaming-pyramids-2018/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "fluxx",
+            "name": "Fluxx",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/fluxx-1997/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "detectivepoker",
+            "name": "Detective Poker",
+            "players": {
+                "min": 3,
+                "max": 4,
+                "best": null
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/detective-poker-2014/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "bandido",
+            "name": "Bandido",
+            "players": {
+                "min": 1,
+                "max": 4,
+                "best": 3
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/bandido-2016/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "cubirds",
+            "name": "CuBirds",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 3
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/cubirds-2018/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "draftosaurus",
+            "name": "Draftosaurus",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 4
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/draftosaurus-2019/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "schroedingerscats",
+            "name": "Schrödinger's Cats",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": 4
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/schrodingers-cats-2015/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "piratenkapern",
+            "name": "Piraten Kapern",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 3
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/piraten-kapern-2012/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "rollforthegalaxy",
+            "name": "Roll for the Galaxy",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": [3, 4]
+            },
+            "music": "https://melodice.org/playlist/roll-for-the-galaxy-2014/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "herrlof",
+            "name": "Herrlof",
+            "players": {
+                "min": 2,
+                "max": 3,
+                "best": 2
+            },
+            "music": "https://melodice.org/playlist/herrlof-2020/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "abandonallartichokes",
+            "name": "Abandon All Artichokes",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": [2, 3]
+            },
+            "music": "https://melodice.org/playlist/abandon-all-artichokes-2020/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "libertalia",
+            "name": "Libertalia",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/libertalia-2012/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "diceforge",
+            "name": "Dice Forge",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/dice-forge-2017/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "takenoko",
+            "name": "Takenoko",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/takenoko-2011/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "coltexpress",
+            "name": "Colt Express",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": [5, 6]
+            },
+            "music": "https://melodice.org/playlist/colt-express-2014/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "puertorico",
+            "name": "Puerto Rico",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/puerto-rico-2002/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "alhambra",
+            "name": "Alhambra",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/alhambra-2003/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "keyflower",
+            "name": "Keyflower",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/keyflower-2012/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "roomtwentyfive",
+            "name": "Room 25",
+            "players": {
+                "min": 1,
+                "max": 6,
+                "best": [4, 5, 6]
+            },
+            "music": "https://melodice.org/playlist/room-25-2013/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "elfenland",
+            "name": "Elfenland",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/elfenland-1998/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "smallislands",
+            "name": "Small Islands",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": null
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/small-islands-2018/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "sushigo",
+            "name": "Sushi Go!",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 4
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/sushi-go-2013/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "incangold",
+            "name": "Diamant",
+            "players": {
+                "min": 3,
+                "max": 8,
+                "best": [6, 7, 8]
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/diamant-2005/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "sevenwonders",
+            "name": "7 Wonders",
+            "players": {
+                "min": 3,
+                "max": 7,
+                "best": [4, 5]
+            },
+            "music": "https://melodice.org/playlist/7-wonders-2010/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "hanabi",
+            "name": "Hanabi",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/hanabi-2010/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "tokaido",
+            "name": "Tokaido",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/tokaido-2012/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "potionexplosion",
+            "name": "Potion Explosion",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/potion-explosion-2015/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "dungeonroll",
+            "name": "Dungeon Roll",
+            "players": {
+                "min": 1,
+                "max": 4,
+                "best": 2
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/dungeon-roll-2013/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "cantstop",
+            "name": "Can't Stop!",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/cant-stop-1980/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "splendor",
+            "name": "Splendor",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/splendor-2014/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "kingsguild",
+            "name": "The King's Guild",
+            "players": {
+                "min": 1,
+                "max": 6,
+                "best": [3, 4]
+            },
+            "music": "https://melodice.org/playlist/the-kings-guild-2018/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "fleet",
+            "name": "Fleet",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/fleet-2012/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "celestia",
+            "name": "Celestia",
+            "players": {
+                "min": 4,
+                "max": 6,
+                "best": [5, 6]
+            },
+            "music": "https://melodice.org/playlist/celestia-2015/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "kingdomino",
+            "name": "Kingdomino",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": [2, 4]
+            },
+            "music": "https://melodice.org/playlist/kingdomino-2016/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "stoneage",
+            "name": "Stone Age",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/stone-age-2008/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "dragonwood",
+            "name": "Dragonwood",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/dragonwood-2015/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "carcassonne",
+            "name": "Carcassonne",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": [2, 3]
+            },
+            "music": "https://melodice.org/playlist/carcassonne-2000/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "downforce",
+            "name": "Downforce",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": [3, 6]
+            },
+            "music": "https://melodice.org/playlist/downforce-2017/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "welcometo",
+            "name": "Welcome To...",
+            "players": {
+                "min": 1,
+                "max": 12,
+                "best": [3, 4]
+            },
+            "music": "https://melodice.org/playlist/welcome-to-2018/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "k2",
+            "name": "K2",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/k2-2010/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "eminentdomain",
+            "name": "Eminent Domain",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/eminent-domain-2011/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "saboteur",
+            "name": "Saboteur",
+            "players": {
+                "min": 3,
+                "max": 12,
+                "best": [7, 8]
+            },
+            "music": "https://melodice.org/playlist/saboteur-2004/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "targi",
+            "name": "Targi",
+            "players": {
+                "min": 2,
+                "max": 2,
+                "best": null
+            },
+            "music": "https://melodice.org/playlist/targi-2012/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "sevenwondersduel",
+            "name": "7 Wonders Duel",
+            "players": {
+                "min": 2,
+                "max": 2,
+                "best": null
+            },
+            "music": "https://melodice.org/playlist/7-wonders-duel-2015/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "dragonheart",
+            "name": "Drachenherz",
+            "players": {
+                "min": 2,
+                "max": 2,
+                "best": null
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/dragonheart-2010/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "lostcities",
+            "name": "Lost Cities",
+            "players": {
+                "min": 2,
+                "max": 2,
+                "best": null
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/lost-cities-1999/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "Kribbeln",
+            "name": "Kribbeln",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 4
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/kribbeln-2016/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "Caylus",
+            "name": "Caylus",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 3 
+            },
+            "music": "https://melodice.org/playlist/caylus-2005/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "6nimmt",
+            "name": "6 Nimmt",
+            "players": {
+                "min": 2,
+                "max": 8,
+                "best": [5, 6]
+            },
+            "music": "https://melodice.org/playlist/6-nimmt-1994/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "Wizard",
+            "name": "Wizard",
+            "players": {
+                "min": 3,
+                "max": 6,
+                "best": [4, 5]
+            },
+            "music": "https://melodice.org/playlist/wizard-1984/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "CantStop",
+            "name": "Can't Stop!",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/cant-stop-1980/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "Bluff",
+            "name": "Bluff",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": [5, 6]
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/bluff-1973/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "Ligretto",
+            "name": "Ligretto",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": 4
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/ligretto-1988/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "Bohnanza",
+            "name": "Bohnanza",
+            "players": {
+                "min": 3,
+                "max": 5,
+                "best": [4, 5]
+            },
+            "music": "https://melodice.org/playlist/bohnanza-1997/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "KingdomBuilder",
+            "name": "Kingdom Builder",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/kingdom-builder-2011/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "BlackDog",
+            "name": "Black Dog",
+            "players": {
+                "min": 4,
+                "max": 6,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/black-dog-2016/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "11nimmt",
+            "name": "11 Nimmt",
+            "players": {
+                "min": 2,
+                "max": 7,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/11-nimmt-2010/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "Bruegge",
+            "name": "Brügge",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/bruges-2013/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "GanzSchoenClever",
+            "name": "Ganz Schön Clever",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 2
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/thats-pretty-clever-2018/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "DoppeltSoClever",
+            "name": "Doppelt So Clever",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 2
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/twice-as-clever-2019/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "CleverHochDrei",
+            "name": "Clever Hoch Drei",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 2
+            },
+            "music": "https://melodice.org/playlist/clever-cubed-2020/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "Hadara",
+            "name": "Hadara",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": [4, 5]
+            },
+            "music": "https://melodice.org/playlist/hadara-2019/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "Kingsburg",
+            "name": "Kingsburg",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/kingsburg-2007/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "Imhotep",
+            "name": "Imhotep",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/imhotep-2016/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "GoennenKoennen",
+            "name": "Man muss auch Gönnen Können",
+            "players": {
+                "min": 1,
+                "max": 4,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/man-muss-auch-gonnen-konnen-2020/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "MonsterExpedition",
+            "name": "Monster Expedition",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": [2, 3]
+            },
+            "music": "https://melodice.org/playlist/carnival-of-monsters-2019/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "Saboteur",
+            "name": "Saboteur",
+            "players": {
+                "min": 4,
+                "max": 10,
+                "best": [7, 8]
+            },
+            "music": "https://melodice.org/playlist/saboteur-2004/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "HeulDoch",
+            "name": "Heul Doch!",
+            "players": {
+                "min": 3,
+                "max": 6,
+                "best": 3
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/heul-doch-mau-mau-2019/"
+        }, {
+            "portal": "yucata",
+            "id": "ClaimIt",
+            "name": "Claim It",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 2
+            },
+            "music": "https://melodice.org/playlist/claim-it-2006/"
+        }, {
+            "portal": "yucata",
+            "id": "CastlesOfBurgundy",
+            "name": "The Castles of Burgundy",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/CastlesOfBurgundy.jpg",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 2
+            },
+            "music": "https://melodice.org/playlist/the-castles-of-burgundy-2011/"
+        }, {
+            "portal": "yucata",
+            "id": "PortRoyal",
+            "name": "Port Royal",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/PortRoyal.jpg",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": [3, 4]
+            },
+            "music": "https://melodice.org/playlist/port-royal-2014/"
+        }, {
+            "portal": "yucata",
+            "id": "Alchemist",
+            "name": "Alchemist",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/Alchemist.jpg",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/alchemist-2007/"
+        }, {
+            "portal": "yucata",
+            "id": "AttaAnts",
+            "name": "Atta Ants",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/AttaAnts.jpg",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/atta-ants-2003/"
+        }, {
+            "portal": "yucata",
+            "id": "Cacao",
+            "name": "Cacao",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/cacao-2015/"
+        }, {
+            "portal": "yucata",
+            "id": "CarcHaG",
+            "name": "Carcassonne Hunters&Gatherers",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": [2, 3]
+            },
+            "music": "https://melodice.org/playlist/carcassonne-hunters-and-gatherers-2002/"
+        }, {
+            "portal": "yucata",
+            "id": "CarcSouthSeas",
+            "name": "Carcasonne South Seas",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": [2, 3]
+            },
+            "music": "https://melodice.org/playlist/carcassonne-south-seas-2013/"
+        }, {
+            "portal": "yucata",
+            "id": "ElGrande",
+            "name": "El Grande",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/ElGrande.jpg",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 5
+            },
+            "music": "https://melodice.org/playlist/el-grande-1995/"
+        }, {
+            "portal": "yucata",
+            "id": "GlenMore",
+            "name": "Glen More",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/GlenMore.jpg",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/glen-more-2010/"
+        }, {
+            "portal": "yucata",
+            "id": "GrandAustria",
+            "name": "Grand Austria Hotel",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 2
+            },
+            "music": "https://melodice.org/playlist/grand-austria-hotel-2015/"
+        }, {
+            "portal": "yucata",
+            "id": "Hazienda",
+            "name": "Hacienda",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/hacienda-2005/"
+        }, {
+            "portal": "yucata",
+            "id": "Fish",
+            "name": "Hey! That's my fish!",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/Fish.gif",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/hey-thats-my-fish-2003/"
+        }, {
+            "portal": "yucata",
+            "id": "ImhotepDuell",
+            "name": "Imhotep Duell",
+            "players": {
+                "min": 2,
+                "max": 2,
+                "best": null
+            },
+            "music": "https://melodice.org/playlist/imhotep-the-duel-2018/"
+        }, {
+            "portal": "yucata",
+            "id": "MachiKoro",
+            "name": "Machi Koro",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/machi-koro-2012/"
+        }, {
+            "portal": "yucata",
+            "id": "Delphi",
+            "name": "The Oracle of Delphi",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": [3, 4]
+            },
+            "music": "https://melodice.org/playlist/the-oracle-of-delphi-2016/"
+        }, {
+            "portal": "yucata",
+            "id": "Pompeji",
+            "name": "Pompeji",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/Pompeji.jpg",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 2
+            },
+            "music": "https://melodice.org/playlist/pompeji-2001/"
+        }, {
+            "portal": "yucata",
+            "id": "PuertoRicoCard",
+            "name": "San Juan",
+            "name": "Puerto Rico (Cards)",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/puerto-rico-2002/"
+        }, {
+            "portal": "yucata",
+            "id": "Rajas",
+            "name": "Rajas of the Ganges",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/rajas-of-the-ganges-2017/"
+        }, {
+            "portal": "yucata",
+            "id": "RollAges",
+            "name": "Roll through the Ages",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/RollAges.jpg",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 2
+            },
+            "music": "https://melodice.org/playlist/roll-through-the-ages-the-bronze-age-2008/"
+        }, {
+            "portal": "yucata",
+            "id": "HangingGardens",
+            "name": "The Hanging Gardens",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/HangingGardens.jpg",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 2
+            },
+            "music": "https://melodice.org/playlist/the-hanging-gardens-2008/"
+        }, {
+            "portal": "yucata",
+            "id": "Speicherstadt",
+            "name": "Speicherstadt",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/Speicherstadt.jpg",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/the-speicherstadt-2010/"
+        }, {
+            "portal": "yucata",
+            "id": "Thunderstone",
+            "name": "Thunderstone",
+            "gameIcon": "https://www.yucata.de/netimages/covers/120/Thunderstone.jpg",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/thunderstone-2009/"
+        }
+    ]
+}
