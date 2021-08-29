@@ -814,6 +814,28 @@
             "filler": true,
             "music": "https://melodice.org/playlist/heul-doch-mau-mau-2019/"
         }, {
+            "portal": "brettspielwelt",
+            "id": "CastlesOfTuscany",
+            "name": "The Castles of Tuscany",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/the-castles-of-tuscany-2020/"
+        }, {
+            "portal": "brettspielwelt",
+            "id": "DieCrew",
+            "name": "Die Crew",
+            "players": {
+                "min": 3,
+                "max": 5,
+                "best": 4
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/the-crew-the-quest-for-planet-nine-2019/"
+        }, {
             "portal": "yucata",
             "id": "ClaimIt",
             "name": "Claim It",
