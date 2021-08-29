@@ -545,6 +545,48 @@
             "filler": true,
             "music": "https://melodice.org/playlist/lost-cities-1999/"
         }, {
+            "portal": "boardgamearena-premium",
+            "id": "pingimus",
+            "name": "Pingimus",
+            "players": {
+                "min": 3,
+                "max": 12,
+                "best": null
+            },
+            "filler": true,
+            "music": null
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "dicehospital",
+            "name": "Dice Hospital",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/dice-hospital-2018/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "thirteenclues",
+            "name": "13 Indizien",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": 4
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/13-clues-2016/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "automobiles",
+            "name": "Automobiles",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": [3, 4]
+            },
+            "music": "https://melodice.org/playlist/automobiles-2016/"
+        }, {
             "portal": "brettspielwelt",
             "id": "Kribbeln",
             "name": "Kribbeln",
