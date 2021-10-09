@@ -35,6 +35,15 @@
                 "game": "https://www.yucata.de/Games/{0}/cover120.jpg"
             },
             "template": "https://www.yucata.de/de/GameInfo/{0}"
+        },
+        "codenames": {
+            "title": "Codenames",
+            "url": "https://codenames.game/",
+            "icons": {
+                "platform": "https://codenames.game/icon_cn/apple-touch-icon.png",
+                "game": "https://codenames.game/icon_cn/apple-touch-icon.png"
+            },
+            "template": "https://codenames.game/"
         }
     },
     "games": [
@@ -167,6 +176,16 @@
                 "best": [3, 4]
             },
             "music": "https://melodice.org/playlist/roll-for-the-galaxy-2014/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "raceforthegalaxy",
+            "name": "Race for the Galaxy",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 2
+            },
+            "music": "https://melodice.org/playlist/race-for-the-galaxy-2007/"
         }, {
             "portal": "boardgamearena",
             "id": "herrlof",
@@ -587,6 +606,122 @@
             },
             "music": "https://melodice.org/playlist/automobiles-2016/"
         }, {
+            "portal": "boardgamearena",
+            "id": "arnak",
+            "name": "Die verlorenen Ruinen von Arnak",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/lost-ruins-of-arnak-2020/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "castlesofburgundy",
+            "name": "Die Burgen von Burgund",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 2
+            },
+            "music": "https://melodice.org/playlist/the-castles-of-burgundy-2011/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "gonutsfordonuts",
+            "name": "Go Nuts for Donuts",
+            "players": {
+                "min": 2,
+                "max": 6,
+                "best": [4, 5]
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/go-nuts-for-donuts-2017/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "viticulture",
+            "name": "Viticulture",
+            "players": {
+                "min": 1,
+                "max": 6,
+                "best": [3, 4]
+            },
+            "music": "https://melodice.org/playlist/viticulture-2013/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "codexnaturalis",
+            "name": "Codex Naturalis",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 2
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/codex-naturalis-2020/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "bang",
+            "name": "Bang!",
+            "players": {
+                "min": 2,
+                "max": 7,
+                "best": 7
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/bang-2002/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "russianrailroads",
+            "name": "Russian Railroads",
+            "players": {
+                "min": 2,
+                "max": 4,
+                "best": 4
+            },
+            "music": "https://melodice.org/playlist/russian-railroads-2013/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "nidavellir",
+            "name": "Nidavellir",
+            "players": {
+                "min": 2,
+                "max": 5,
+                "best": 3
+            },
+            "music": "https://melodice.org/playlist/nidavellir-2020/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "coupcitystate",
+            "name": "Coup",
+            "players": {
+                "min": 2,
+                "max": 8,
+                "best": 5
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/coup-2012/"
+        }, {
+            "portal": "boardgamearena-premium",
+            "id": "turnthetide",
+            "name": "Land unter",
+            "players": {
+                "min": 3,
+                "max": 6,
+                "best": [4, 5]
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/turn-the-tide-1997/"
+        }, {
+            "portal": "boardgamearena",
+            "id": "quarto",
+            "name": "Quarto",
+            "players": {
+                "min": 2,
+                "max": 2,
+                "best": 2
+            },
+            "filler": true,
+            "music": "https://melodice.org/playlist/quarto-1991/"
+        }, {
             "portal": "brettspielwelt",
             "id": "Kribbeln",
             "name": "Kribbeln",
@@ -847,17 +982,6 @@
             "music": "https://melodice.org/playlist/claim-it-2006/"
         }, {
             "portal": "yucata",
-            "id": "CastlesOfBurgundy",
-            "name": "The Castles of Burgundy",
-            "gameIcon": "https://www.yucata.de/netimages/covers/120/CastlesOfBurgundy.jpg",
-            "players": {
-                "min": 2,
-                "max": 4,
-                "best": 2
-            },
-            "music": "https://melodice.org/playlist/the-castles-of-burgundy-2011/"
-        }, {
-            "portal": "yucata",
             "id": "PortRoyal",
             "name": "Port Royal",
             "gameIcon": "https://www.yucata.de/netimages/covers/120/PortRoyal.jpg",
@@ -1017,8 +1141,7 @@
         }, {
             "portal": "yucata",
             "id": "PuertoRicoCard",
-            "name": "San Juan",
-            "name": "Puerto Rico (Cards)",
+            "name": "San Juan (Puerto Rico Kartenspiel)",
             "players": {
                 "min": 2,
                 "max": 4,
@@ -1079,6 +1202,16 @@
                 "best": 3
             },
             "music": "https://melodice.org/playlist/thunderstone-2009/"
+        }, {
+            "portal": "codenames",
+            "id": "codenames",
+            "name": "Codenames",
+            "players": {
+                "min": 2,
+                "max": null,
+                "best": [6, 8]
+            },
+            "music": "https://melodice.org/playlist/codenames-2015/"
         }
     ]
 }
